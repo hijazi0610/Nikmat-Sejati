@@ -27,12 +27,12 @@ body {
 }
 
 .navigation li a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .navigation li a:hover{
-    color: white;
+    color: black;
 }
 
 .section-1 {
@@ -67,6 +67,15 @@ body {
     height: 100vh;
 }
 
+.intro-2 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 20%;
+    border: 2px solid green;
+    background: rgba(0, 151, 19, 0.5);
+    color: whitesmoke;
+}
+
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +84,9 @@ body {
     font-size: 1.3rem;
     width: 2000px auto;
     height: 50vh;
-    background: linear-gradient(to right, #567909, #7FFFD4)
+    background: rgb(36,28,0);
+    background: linear-gradient(90deg, rgba(36,28,0,1) 0%, rgba(86,121,9,1) 57%, rgba(255,149,0,1) 100%);
+    color: white;
 }
 
 .form {
