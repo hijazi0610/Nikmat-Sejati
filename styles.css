@@ -1,15 +1,19 @@
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 .links {
+    background: rgb(36,28,0);
+    background: linear-gradient(90deg, rgba(36,28,0,1) 0%, rgba(86,121,9,1) 57%, rgba(255,149,0,1) 100%);
     text-align: center;
+    text-transform: uppercase;
     position: sticky;
     top: 0;
     z-index: 4;
     background-color: white;
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
 }
 
 .navigation ul {
@@ -19,6 +23,7 @@ body {
     margin: auto;
     list-style-type: none;   
     text-decoration: none;
+    padding: 7px;
 }
 
 .navigation li a{
@@ -27,7 +32,7 @@ body {
 }
 
 .navigation li a:hover{
-    color:brown;
+    color: white;
 }
 
 .section-1 {
@@ -67,24 +72,27 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    font-size: 1.25rem;
-    width: 1000px auto;
-    margin: 100px;
-    border: 1px solid green;
-    background: linear-gradient(to right, #66CDAA, #7FFFD4)
-    
+    font-size: 1.3rem;
+    width: 2000px auto;
+    height: 50vh;
+    background: linear-gradient(to right, #567909, #7FFFD4)
 }
 
 .form {
-    padding: 0.5rem;
+    padding-left: 200px;
     max-width: 2000px;
-    margin: 4rem;
+    margin: 1rem;
 }
 
-label, textarea {
+label, input, textarea {
     display: block;
+    text-align: left;
     text-transform: uppercase;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
-
+input, textarea {
+    outline: 0;
+    border: 1px solid green;
+    background: #c8d6a9;
+}
